@@ -124,7 +124,7 @@ Are you too comfortable and eager to do more? Try these additional challenges!
 
 Are you too comfortable and eager to do more? Try these additional challenges!
 
-### Day 2 - Optional Challenge 8: **[– Identity Experience Framework, get ready for custom policies ](Student/Challenge_D2_08.md)**
+### Day 2 - Optional Challenge 8: **[Identity Experience Framework, get ready for custom policies](Student/Challenge_D2_08.md)**
 
 - [Add description content here]
 
