@@ -27,13 +27,19 @@ Remember, the scope of the PoC is to allow your corporate users to login in to y
 ## Tips
 
 You should configure the Application Registration in your “HomeTenant”
+
 You can configure the Redirect URIs after deploying your application
 
 ## Learning Resources
 
 [Quickstart: Sign in users in web apps using the auth code flow - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/develop/web-app-quickstart?pivots=devlang-aspnet-core)
+
 [Single and multi-tenant apps](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-and-multi-tenant-apps)
+
 [Application Type Options](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-authentication-flows)
+
 [Consent Types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types)
+
 [Scopes and Permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#scopes-and-permissions)
+
 [Security tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/security-tokens)
