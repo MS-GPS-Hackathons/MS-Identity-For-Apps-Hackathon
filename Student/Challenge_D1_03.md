@@ -73,11 +73,9 @@ You can find the code in this [GitHub repository](https://github.com/fparpas/Azu
 ## Tips
 
 Ensure that you will run the script with “HomeAdmin” account, which has “Owner” role assignment on subscription level.
-
 After the deployment you should configure the Redirect URI i.e https://[WebAppHostName].azurewebsites.net/signin-oidc
 
 ## Learning Resources
 
 [Deploy files to App Service - Azure App Service | Microsoft Docs](https://docs.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli#deploy-a-zip-package)
-
 [Configure apps - Azure App Service | Microsoft Docs](https://docs.microsoft.com/en-us/azure/app-service/configure-common?tabs=portal)

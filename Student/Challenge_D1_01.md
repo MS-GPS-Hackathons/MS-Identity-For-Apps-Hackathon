@@ -26,20 +26,13 @@ As a first step you have decided to login to the Azure Portal and configure your
 
 ## Tips
 
-Azure AD
-Premium P2 will be used later when enabling Conditional Access Policies and Multifactor
-authentication.
+Azure AD Premium P2 will be used later when enabling Conditional Access Policies and Multifactor authentication.
 
 ## Learning Resources
 
 [Add or delete users - Azure Active Directory - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
-
 [Assign Azure roles using the Azure portal - Azure RBAC | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=current)
-
 [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles#differences-between-azure-roles-and-azure-ad-roles)
-
 [What is Azure role-based access control (Azure RBAC)? | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
-
 [Assign or remove licenses - Azure Active Directory - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/license-users-groups#assign-licenses-to-users-or-groups)
-
 [Azure AD B2B and B2C feature sets](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)
