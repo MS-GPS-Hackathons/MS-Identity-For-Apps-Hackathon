@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "ApiUserName": "[Type the username defined in the API Connector]",
+  "ApiPassword": "[Type the password defined in the API Connector]"
+}
