@@ -1,4 +1,4 @@
-# (Optional) Advanced Challenge 08 - Branding your sign-in page
+# (Optional) Day 1 - Advanced Challenge 08 - Branding your sign-in page
 
  [< Previous Challenge](./Challenge_D1_07.md) - **[Home](../README.md)** - [Next Advanced Challenge (Optional) >](./Challenge_D1_09.md)
 

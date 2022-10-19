@@ -1,4 +1,4 @@
-# Challenge 07 - Make your application Multitenant
+# Day 1 - Challenge 07 - Make your application Multitenant
 
  [< Previous Challenge](./Challenge_D1_06.md) - **[Home](../README.md)** - [Next Advanced Challenge (Optional) >](./Challenge_D1_08.md)
 

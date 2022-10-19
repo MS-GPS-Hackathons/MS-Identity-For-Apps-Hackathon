@@ -1,4 +1,4 @@
-# Challenge 06 - Enable Conditional Access and enforce Multifactor Authentication
+# Day 1 - Challenge 06 - Enable Conditional Access and enforce Multifactor Authentication
 
  [< Previous Challenge](./Challenge_D1_05.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge_D1_07.md)
 

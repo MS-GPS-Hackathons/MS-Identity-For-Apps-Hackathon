@@ -1,4 +1,4 @@
-# Challenge 05 - Control who can authenticate in your app
+# Day 1 - Challenge 05 - Control who can authenticate in your app
 
  [< Previous Challenge](./Challenge_D1_04.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge_D1_06.md)
 

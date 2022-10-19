@@ -1,4 +1,4 @@
-# Challenge 00 - Setup
+# Day 1 - Challenge 00 - Setup
 
 **[Home](../README.md)** - [Next Challenge >](./Challenge_D1_01.md)
 

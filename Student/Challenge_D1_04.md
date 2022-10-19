@@ -1,4 +1,4 @@
-# Challenge 04 - Enable External Identities
+# Day 1 - Challenge 04 - Enable External Identities
 
  [< Previous Challenge](./Challenge_D1_03.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge_D1_05.md)
 
