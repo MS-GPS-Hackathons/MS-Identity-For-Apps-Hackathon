@@ -62,11 +62,10 @@ Setup and configure the following.
 
 ## Tips
 
-- You can use "Azure AD Premium P2" or "Enterprise Mobility + Security E5"
-  free trial to enable Azure AD Premium P2 licence.
+You can use "Azure AD Premium P2" or "Enterprise Mobility + Security E5" free trial to enable Azure AD Premium P2 licence.
 
 ## Learning Resources
 
-- [Quickstart - Access & create new tenant - Azure AD - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
-- [Assign Azure AD roles to users - Azure Active Directory - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
-- [Assign or remove licenses - Azure Active Directory - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/license-users-groups#assign-licenses-to-users-or-groups)
+[Quickstart - Access & create new tenant - Azure AD - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+[Assign Azure AD roles to users - Azure Active Directory - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+[Assign or remove licenses - Azure Active Directory - Microsoft Entra \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/license-users-groups#assign-licenses-to-users-or-groups)
