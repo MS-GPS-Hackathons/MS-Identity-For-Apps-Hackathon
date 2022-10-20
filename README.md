@@ -1,4 +1,4 @@
-# Azure AD Identity for Apps Hackathon
+# Identity for Apps Hackathon
 
 The Identity for Apps hackathon will provide a deep dive experience targeted for developers by integrating Azure AD Identity solutions into applications. Hackathon is a collaborative learning experience, designed as a set of challenges to practice your technical skills.  By participating in this hackathon, you will be able to understand the capabilities of Azure AD B2B and Azure AD B2C and learn how modern authentication works with Microsoft identity platform.
 
