@@ -1,30 +1,30 @@
-# Challenge 00 - Setup
+# Day 2 - Challenge 01 - Getting Started with Azure AD B2C
 
-**[Home](../README.md)** - [Next Challenge >](./Challenge_01.md)
-
-## Pre-requisites
-
-- Your laptop: Win, MacOS or Linux OR A development machine that you have **administrator rights**.
-- Active Azure Subscription with **Global Administartor access** to create or modify resources and permissions.
+**[Home](../README.md)** - [Next Challenge >](./Challenge_D2_02.md)
 
 ## Introduction
 
-In this challenge you will setup your computer and cloud environment with the minimum required tools.
+After completing the previous challenges with a primary focus on Azure AD B2B, you are ready to explore the next chapter of the Azure AD Identity platform -> Azure AD B2C.
+
+Azure AD B2C is a customer identity access management (CIAM) solution capable of supporting millions of users and billions of authentications per day. It takes care of the scaling and safety of the authentication platform, monitoring, and automatically handling threats like denial-of-service, password spray, or brute force attacks.
+
+Azure AD B2C is a separate service from Azure Active Directory (Azure AD). It is built on the same technology as Azure AD but for a different purpose. It allows businesses to build customer facing applications, and then allow anyone to sign up into those applications with no restrictions on user account.
 
 ## Description
 
-Setup and configure the following tools
-
-- Use the Azure Subscription provided in this Hack. In case an Azure subscription didn't provided you can create an [Azure](https://azure.microsoft.com/) subscription. If you already have a subscription you can use it or you can get a free trial [here](https://azure.microsoft.com/free/).
-- Log into the [Azure Portal](https://portal.azure.com) and confirm that you have an active subscription that you can deploy cloud services and you have the proper access rights to create users and assign permissions.
-- Download and install [Git SCM](https://git-scm.com/download) if you don't have it or a similar Git client installed
-- Use Visual Studio 2019 or 2022 or download and install [Visual Studio Code](https://code.visualstudio.com) if you don't have it.
-- Download and Install the [.NET 3.1 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) if you don't have it.
-- Download and install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) if you don't have it..
+As a Cloud Solution Architect, you are ready to explore Azure AD B2C, which will help you realize the differences between Azure AD B2B and B2C. You discuss this with the Product team and they have asked you to create a new B2C tenant and understand the capabilities of this service.
 
 ## Success Criteria
 
-- You should be able to log in to the Azure Portal.
-- You should be able to clone this repository to your machine.
+- Demonstrate that you created an Azure AD B2C tenant.
+- Explain some of the differences between Azure AD B2B and Azure AD B2C.
 
-**[Home](../README.md)** - [Next Challenge >](./Challenge_01.md)
+## Learning Resources
+
+[What is Azure Active Directory B2C?](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview)
+
+[Azure AD B2C Technical and feature overview](https://learn.microsoft.com/en-us/azure/active-directory-b2c/technical-overview)
+
+[Create an Azure Active Directory B2C tenant](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)
+
+[External Identities in Azure Active Directory - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)
