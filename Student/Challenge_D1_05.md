@@ -22,6 +22,8 @@ You should allow access to the application only for “HomeUserA” and “Exter
 
 ## Learning Resources
 
-[Properties of an enterprise application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-properties?source=recommendations#assignment-required)
+[Assignment Required property](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-properties?source=recommendations#assignment-required)
+
+[Configure enterprise application properties](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-configure#configure-application-properties)
 
 [Quickstart: Create and assign a user account - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-assign-users#assign-a-user-account-to-an-enterprise-application)
