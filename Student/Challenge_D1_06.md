@@ -28,6 +28,6 @@ When configuring the MFA security verification for user HomeUserA, select the â€
 
 ## Learning Resources
 
-[Enable Azure AD Multi-Factor Authentication - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa?toc=%2Fazure%2Factive-directory%2Fconditional-access%2Ftoc.json&bc=%2Fazure%2Factive-directory%2Fconditional-access%2Fbreadcrumb%2Ftoc.json)
+[Enable Azure AD Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-azure-mfa?toc=%2Fazure%2Factive-directory%2Fconditional-access%2Ftoc.json&bc=%2Fazure%2Factive-directory%2Fconditional-access%2Fbreadcrumb%2Ftoc.json)
 
-[Tutorial: Manage application access and security - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tutorial-manage-access-security#create-a-conditional-access-policy)
+[Tutorial: Manage application access and security](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tutorial-manage-access-security#create-a-conditional-access-policy)
