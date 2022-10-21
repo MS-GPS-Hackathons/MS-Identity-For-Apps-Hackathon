@@ -44,7 +44,7 @@ The learning objectives for this hack will cover the following topics:
 
 - [Add description content here]
 
-### Day 1 - Challenge 1: **[Getting Started with your Azure tenant](Student/Challenge_D1_01.md)**
+### Day 1 - Challenge 1: **[Getting Started](Student/Challenge_D1_01.md)**
 
 - [Add description content here]
 

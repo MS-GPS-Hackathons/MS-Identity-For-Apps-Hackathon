@@ -1,4 +1,4 @@
-# Day 1 - Challenge 01 - Getting Started with your Azure tenant 
+# Day 1 - Challenge 01 - Getting Started
 
  [< Previous Challenge](./Challenge_D1_00.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge_D1_02.md)
 
