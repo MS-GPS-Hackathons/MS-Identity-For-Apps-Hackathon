@@ -63,12 +63,22 @@ az webapp deployment source config-zip --resource-group $resourceGroupName --nam
 
 You can find the code in this [GitHub repository](./Resources/Challenge_D1_03/DeployAppScriptB2B.azcli)
 
+After completing the application deployment, you need to get familiar with oAuth security tokens.
+You should go through the learning resources and explain to your coach the following:
+
+- What is an access token, ID token and refresh token
+- How the validation of security tokens works
+- JSON Web Tokens and claims
+
 ## Success Criteria
 
 - Demonstrate that you have successfully deployed the web application on Azure.
 - Demonstrate that you can login with UserA account in your web application you recently deployed in Azure.
 - Verify that the application configuration settings of the web application you recently deployed in Azure is properly set.
 - Explain what are the Redirect URIs and why they are used
+- Explain what is an access token, ID token and refresh token.
+- Explain how the validation of security tokens works
+- Explain the usage of JSON Web Tokens and claims.
 
 ## Tips
 
@@ -78,6 +88,10 @@ After the deployment you should configure the Redirect URI i.e https://[WebAppHo
 
 ## Learning Resources
 
-[Deploy files to App Service - Azure App Service | Microsoft Docs](https://docs.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli#deploy-a-zip-package)
+[Deploy files to App Service](https://docs.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli#deploy-a-zip-package)
 
-[Configure apps - Azure App Service | Microsoft Docs](https://docs.microsoft.com/en-us/azure/app-service/configure-common?tabs=portal)
+[Configure apps - Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-common?tabs=portal)
+
+[Redirect URI (reply URL)](https://learn.microsoft.com/en-us/azure/active-directory/develop/reply-url)
+
+[Security tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/security-tokens)

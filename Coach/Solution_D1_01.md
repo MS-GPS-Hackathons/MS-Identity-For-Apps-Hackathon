@@ -1,4 +1,4 @@
-# Coach's Guide - Day 1 - Getting Started
+# Coach's Guide - Day 1 - Challenge 01 - Getting Started
 
  [< Previous Solution](./Solution_D1_00.md) - **[Home](../README.md)** - [Next Solution >](./Solution_D1_02.md)
 

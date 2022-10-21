@@ -12,17 +12,23 @@ In the previous challenge you have completed the setup of your tenant and you fi
 
 Remember, the scope of the PoC is to allow your corporate users to login in to your application.
 
+After completing the QuickStart guide and you run the application locally, you need to get familiar with the identity concepts.
+Hence you have to go through the learning resources and explain to your coach the following:
+
+- Differences between Single Tenant and Multi-tenant app types
+- Scopes and permissions
+- Permission types
+- User Consent and Admin Consent
+
 ## Success Criteria
 
 - Demonstrate that you have configured the Application which has as an audience all the accounts in your directory only.
 - Demonstrate that you can login with HomeUserA account in your web application locally.
 - Briefly explain the differences between Single Tenant and Multi-tenant app types.
-- Explain the Application types options (SPA, web app, desktop app, daemon app) by specifying what authentication flow you will use for every option.
+- Explain what is the usage of scopes and permissions.
+- Explain what are the permission types.
 - Explain what is User Consent and Admin Consent.
-- Explain what is the usage of scopes.
-- Explain the differences between access token, ID token and refresh token.
-- Explain how the Validation of security tokens works
-- Explain the usage of JSON Web Tokens and claims.
+- (Optional) Explain the Application types options (SPA, web app, desktop app, daemon app) by specifying what authentication flow you will use for every option.
 
 ## Tips
 
@@ -32,14 +38,14 @@ You can configure the Redirect URIs after deploying your application
 
 ## Learning Resources
 
-[Quickstart: Sign in users in web apps using the auth code flow - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/develop/web-app-quickstart?pivots=devlang-aspnet-core)
+[Quickstart: Sign in users in web apps using the auth code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/web-app-quickstart?pivots=devlang-aspnet-core)
 
 [Single and multi-tenant apps](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-[Application Type Options](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-authentication-flows)
-
-[Consent Types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types)
-
 [Scopes and Permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#scopes-and-permissions)
 
-[Security tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/security-tokens)
+[Permission types](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#permission-types)
+
+[Consent Types - User Consent and Admin Consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types)
+
+[Application Type Options (Optional)](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-authentication-flows)
