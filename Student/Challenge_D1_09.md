@@ -8,7 +8,7 @@ The product team has a request to allow external users to login with their Googl
 
 ## Description
 
-During the challenge which you enable External Identities, the Product Owner had a request to enable Google, Facebook or Microsoft (outlook) identities, but due to time constraints you agreed to complete this task in a future iteration.
+During a previous challenge, in which you enable External Identities, the Product Owner had a request to enable Google, Facebook or Microsoft (outlook) identities, but due to time constraints you agreed to complete this task in a future iteration.
 
 Now it’s the time to proceed by configuring one of the identities mentioned above.
 
@@ -18,8 +18,8 @@ Now it’s the time to proceed by configuring one of the identities mentioned ab
 
 ## Learning Resources
 
-[Microsoft account (MSA) identity provider in Azure AD - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/microsoft-account)
+[Microsoft account (MSA) identity provider in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/microsoft-account)
 
-[Add Google as an identity provider for B2B - Azure AD - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/google-federation)
+[Add Google as an identity provider for B2B - Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/google-federation)
 
-[Add Facebook as an identity provider - Azure AD - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/facebook-federation)
+[Add Facebook as an identity provider - Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/facebook-federation)

@@ -8,7 +8,7 @@ The product group has a request to configure company branding in the sign-in pag
 
 ## Description
 
-After the product’s group request you figure out that you can easily configure the sign-in page and add a background image and logo and a text message.
+After the product’s group request you figure out that you can easily configure the sign-in page by adding a background image, logo and a text message.
 
 ## Success Criteria
 
@@ -18,4 +18,4 @@ After the product’s group request you figure out that you can easily configure
 
 ## Learning Resources
 
-[Add branding to your organization's sign-in page - Azure AD - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding)
+[Add branding to your organization's sign-in page - Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/customize-branding)
