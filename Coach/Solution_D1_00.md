@@ -1,6 +1,6 @@
 # Coach's Guide - Day 1 - Challenge 00 - Setup
 
-**[Home](../README.md)** - [Next Solution >](./Solution_D1_01.md)
+**[Home](./README.md)** - [Next Solution >](./Solution_D1_01.md)
 
 ## Introduction
 

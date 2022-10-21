@@ -1,6 +1,6 @@
 # Coach's Guide - Day 1 - Challenge 03 - Deploy your Web Application to Azure
 
- [< Previous Solution](./Solution_D1_02.md) - **[Home](../README.md)** - [Next Solution >](./Solution_D1_04.md)
+ [< Previous Solution](./Solution_D1_02.md) - **[Home](./README.md)** - [Next Solution >](./Solution_D1_04.md)
 
 ## Introduction
 

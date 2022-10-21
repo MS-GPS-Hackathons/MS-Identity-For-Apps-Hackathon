@@ -1,6 +1,6 @@
 # Coach's Guide - Day 1 - Challenge 02 - Add sign-in with Azure AD Identity to an ASP.NET Core web app
 
- [< Previous Solution](./Solution_D1_01.md) - **[Home](../README.md)** - [Next Solution >](./Solution_D1_03.md)
+ [< Previous Solution](./Solution_D1_01.md) - **[Home](./README.md)** - [Next Solution >](./Solution_D1_03.md)
 
 ## Introduction
 

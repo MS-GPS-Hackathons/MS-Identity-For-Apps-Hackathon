@@ -1,6 +1,6 @@
 # (Optional) Coach's Guide - Day 1 - Advanced Challenge 08 - Branding your sign-in page
 
- [< Previous Solution](./Solution_D1_07.md) - **[Home](../README.md)** - [Next Advanced Solution (Optional)>](./Solution_D1_09.md)
+ [< Previous Solution](./Solution_D1_07.md) - **[Home](./README.md)** - [Next Advanced Solution (Optional)>](./Solution_D1_09.md)
 
 ## Introduction
 

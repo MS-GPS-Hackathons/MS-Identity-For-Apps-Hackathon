@@ -1,6 +1,6 @@
 # Coach's Guide - Day 1 - Challenge 04 - Enable External Identities
 
- [< Previous Solution](./Solution_D1_03.md) - **[Home](../README.md)** - [Next Solution >](./Solution_D1_05.md)
+ [< Previous Solution](./Solution_D1_03.md) - **[Home](./README.md)** - [Next Solution >](./Solution_D1_05.md)
 
 ## Introduction
 
