@@ -15,6 +15,8 @@ You have decided to start a Proof of Concept to integrate Azure AD with your int
 
 As a first step you have decided to login to the Azure Portal and configure your tenant by creating two users HomeUserA and HomeUserB and assign them the “Azure AD Premium P2” licence.
 
+Then you have to set Owner rights on subscription level for the HomeAdmin account.
+
 ## Success Criteria
 
 - Demonstrate that HomeAdmin account has Owner rights (Azure Role) on subscription level.
