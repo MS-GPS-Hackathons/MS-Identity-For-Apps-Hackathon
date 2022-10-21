@@ -23,7 +23,7 @@ Then you have to set Owner rights on subscription level for the HomeAdmin accoun
 - Demonstrate that you created  HomeUserA and HomeUserB in “HomeTenant”
 - Demonstrate that you assigned the “Azure AD Premium P2” licence to all users created in your tenant.
 - Explain the differences between “Azure roles” and “Azure AD roles”.
-- Explain what is role-based access control (Azure RBAC), security principal, role definition and role assignment.
+- Explain what is role-based access control (Azure RBAC), security principal, role definition, role assignment and scope.
 - Explain the differences between Azure AD B2B Collaboration and Azure AD B2C (focus on “primary scenarios” and “intended for in [this document](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)” ).
 
 ## Tips
@@ -32,14 +32,14 @@ Azure AD Premium P2 will be used later when enabling Conditional Access Policies
 
 ## Learning Resources
 
-[Add or delete users - Azure Active Directory - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
+[Add or delete users - Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
 
-[Assign Azure roles using the Azure portal - Azure RBAC | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=current)
+[Assign Azure roles using the Azure portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=current)
 
-[Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles#differences-between-azure-roles-and-azure-ad-roles)
+[Azure roles and Azure AD roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles#differences-between-azure-roles-and-azure-ad-roles)
 
-[What is Azure role-based access control (Azure RBAC)? | Microsoft Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
+[Assign or remove licenses - Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/license-users-groups#assign-licenses-to-users-or-groups)
 
-[Assign or remove licenses - Azure Active Directory - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/license-users-groups#assign-licenses-to-users-or-groups)
+[What is Azure role-based access control (Azure RBAC)?](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
 
 [Azure AD B2B and B2C feature sets](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)
