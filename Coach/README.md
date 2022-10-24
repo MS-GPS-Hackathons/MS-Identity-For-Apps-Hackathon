@@ -4,7 +4,7 @@
 
 Welcome to the coach's guide for this Hackathon. Here you will find links to specific guidance for coaches for each of the challenges.
 
-**NOTE**: If you are a Hackathon participant, this is the answer guide. Don't cheat yourself by looking at these during the hack! Go learn something.
+**NOTE**: If you are a Hackathon participant, this is the answer guide. Don't cheat yourself by looking at these during the hack! Go and learn something :)
 
 ## Coach's Solution Guides
 
