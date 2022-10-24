@@ -24,8 +24,10 @@ The link to the GitHub sample can be found in the Learning Resources below.
 
 ## Learning Resources
 
-[Add app roles and get them from a token - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/Azure/active-directory/develop/howto-add-app-roles-in-Azure-ad-apps#app-roles-vs-groups)
+[App Roles](https://learn.microsoft.com/en-us/Azure/active-directory/develop/howto-add-app-roles-in-Azure-ad-apps#app-roles-vs-groups)
 
 [Delegated permissions and application permissions.](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#permission-types)
+
+[App roles vs. groups](https://learn.microsoft.com/en-us/Azure/active-directory/develop/howto-add-app-roles-in-Azure-ad-apps#app-roles-vs-groups)
 
 [GitHub sample](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/master/5-WebApp-AuthZ/5-1-Roles/README.md)
