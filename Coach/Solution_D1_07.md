@@ -13,7 +13,18 @@ Students should also remove the guest users invited in previous challenges from 
 Students should follow the [Making your application multi-tenant](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-your-code-to-send-requests-to-common) documentation. The following high level steps should be done:
 
 - Update the application registration to be multi-tenant
-- Update the application settings of you app to send requests to `/common` endpoint. Set the tenantId app config value to common.
+- Update the application settings of you app to send requests to `/common` endpoint. Set the "tenant" app configuration value to common.
+
+The value of `{tenant}` varies based on the application's sign-in audience as shown in the following table.
+
+| Value                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `common`                                                            | Users with both a personal Microsoft account and a work or school account from Azure AD can sign in to the application.                                                                                                                                                                                                                                                                        |
+| `organizations`                                                     | Only users with work or school accounts from Azure AD can sign in to the application.                                                                                                                                                                                                                                                                                                          |
+| `consumers`                                                         | Only users with a personal Microsoft account can sign in to the application.                                                                                                                                                                                                                                                                                                                   |
+| `8eaef023-2b34-4da1-9baa-8bc8c9d6a490` or `contoso.onmicrosoft.com` | Only users from a specific Azure AD tenant (directory members with a work or school account or directory guests with a personal Microsoft account) can sign in to the application.<br><br>The value can be the domain name of the Azure AD tenant or the tenant ID in GUID format. You can also use the consumer tenant GUID, `9188040d-6c67-4c5b-b112-36a304b66dad`, in place of `consumers`. |
+
+[Find your app's OpenID configuration document URI](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc#find-your-apps-openid-configuration-document-uri)
 
 ## Answers for Challenge
 
