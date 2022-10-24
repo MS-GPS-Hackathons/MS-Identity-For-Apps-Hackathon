@@ -6,6 +6,34 @@ Welcome to the coach's guide for this Hackathon. Here you will find links to spe
 
 **NOTE**: If you are a Hackathon participant, this is the answer guide. Don't cheat yourself by looking at these during the hack! Go learn something.
 
+## Coach's Solution Guides
+
+### Day 1 Challenges - Azure AD B2B
+
+- Challenge 0: **[Prepare Your Environment](Solution_D1_00.md)**
+- Challenge 1: **[Getting Started](Solution_D1_01.md)**
+- Challenge 2: **[Add sign-in with Azure AD Identity to an ASP.NET Core web app](Solution_D1_02.md)**
+- Challenge 3: **[Deploy your Web Application to Azure](Solution_D1_03.md)**
+- Challenge 4: **[Enable External Identities](Solution_D1_04.md)**
+- Challenge 5: **[Control who can authenticate in your app](Solution_D1_05.md)**
+- Challenge 6: **[Enable Conditional Access and enforce Multifactor Authentication](Solution_D1_06.md)**
+- Challenge 7: **[Make your application Multi-tenant](Solution_D1_07.md)**
+- Optional Advanced Challenge 8: **[Branding your sign-in page](Solution_D1_08.md)**
+- Optional Advanced Challenge 9: **[Login with a Microsoft (outlook.com), Google or Facebook account](Solution_D1_09.md)**
+- Optional Advanced Challenge 10: **[Configure App Roles](Solution_D1_10.md)**
+
+### Day 2 Challenges - Azure AD B2C
+- Challenge 1: **[Getting Started with Azure AD B2C](Solution_D2_01.md)**
+- Challenge 2: **[Add Azure AD B2C sign-in, sign-up to an ASP.NET Core web app](Solution_D2_02.md)**
+- Challenge 3: **[Deploy the web app to Azure](Solution_D2_03.md)**
+- Challenge 4: **[Login with External Identity Providers](Solution_D2_04.md)**
+- Challenge 5: **[Branding](Solution_D2_05.md)**
+- Challenge 6: **[Claims Enrichment with API Connectors](Solution_D2_06.md)**
+- Challenge 7: **[Monitoring and Observability](Solution_D2_07.md)**
+- Optional Advanced Challenge 8: **[Identity Experience Framework, get ready for custom policies](Solution_D2_08.md)**
+- Optional Advanced Challenge 9: **[Create Custom Policies](Solution_D2_09.md)**
+- Optional AdvancedChallenge 10: **[Conditional Access and MFA](Solution_D2_10.md)**
+
 ## Coach Prerequisites
 
 This hack has pre-requisites that a coach is responsible for understanding and/or setting up BEFORE hosting an event. Please review the [What The Hack Hosting Guide](https://aka.ms/wthhost) for information on how to host a hack event.

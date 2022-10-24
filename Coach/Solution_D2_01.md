@@ -1,6 +1,6 @@
 # Coach's Guide - Day 2 - Challenge 01 - Getting Started with Azure AD B2C
 
-**[Home](../README.md)** - [Next Solution >](./Solution_D2_02.md)
+**[Home](./README.md)** - [Next Solution >](./Solution_D2_02.md)
 
 ## Introduction
 
