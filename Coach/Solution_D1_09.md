@@ -1,6 +1,6 @@
 # (Optional) Coach's Guide - Day 1 - Advanced Challenge 09 - Login with a Microsoft (outlook.com), Google or Facebook account
 
- [< Previous Advanced Solution](./Solution_D1_08.md) - **[Home](./README.md)** - [Next Advanced Solution (Optional)>](./Solution_D1_10.md)
+ [< Previous Advanced Solution (Optional)](./Solution_D1_08.md) - **[Home](./README.md)** - [Next Advanced Solution (Optional)>](./Solution_D1_10.md)
 
 ## Introduction
 
