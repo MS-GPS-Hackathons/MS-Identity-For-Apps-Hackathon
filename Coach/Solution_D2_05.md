@@ -4,10 +4,10 @@
 
 ## Introduction
 
-In this challenge attendees should customize the user interface of Azure AD B2C with the following.
+In this challenge attendees should customize the user interface of Azure AD B2C by proceeding with the following
 
-- Check the available built-in templates and select one of your choice
-- Basic sign-in page with custom logo of your choice
+- Check the available built-in templates and select one of their choice
+- Basic sign-in page with custom logo of their choice
 - Language customization
 
 ### Built-in templates
