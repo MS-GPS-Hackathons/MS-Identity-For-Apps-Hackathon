@@ -8,7 +8,7 @@ In this challenge the attendees should create a new B2C tenant or use an existin
 
 ## Answers for Challenge
 
-### 1. Explain some of the differences between Azure AD B2B and Azure AD B2C.
+### 1. Explain some of the differences between Azure AD B2B and Azure AD B2C
 
 Azure AD B2B is a feature in Azure AD. It enables cross-organizational collaboration on identity-based applications. Azure AD B2C is an independent service for creating a consumer application identity repository. It is a separate service from Azure AD but it’s build on the same technology.
 
