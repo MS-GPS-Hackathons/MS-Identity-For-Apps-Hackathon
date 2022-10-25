@@ -1,6 +1,7 @@
-# Day 2 - Challenge 02 - Add Azure AD B2C sign-in, sign-up to an ASP.NET Core web app 
+# Day 2 - Challenge 02 - Add Azure AD B2C sign-in, sign-up to an ASP.NET Core web app
 
  [< Previous Challenge](./Challenge_D2_01.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge_D2_03.md)
+
 ## Introduction
 
 As mentioned in the previous challenge, the Product Team is willing to investigate Azure AD B2C for the customer-facing web applications. Now it’s the time to continue by running a Proof of Concept (POC) and get familiar with the service.
