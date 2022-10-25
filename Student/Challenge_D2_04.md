@@ -21,10 +21,11 @@ To complete this challenge successfully, you should be able to:
 
 ## Learning Resources
 
-[Add an identity provider - Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/add-identity-provider)
+[Add an identity provider](https://learn.microsoft.com/en-us/azure/active-directory-b2c/add-identity-provider)
 
-[Set up sign-up and sign-in with a Google account - Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-google?WT.mc_id=Portal-Microsoft_AAD_B2CAdmin&pivots=b2c-user-flow)
+[Set up sign-up and sign-in with a Google account](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-google?WT.mc_id=Portal-Microsoft_AAD_B2CAdmin&pivots=b2c-user-flow)
 
-[Pass an identity provider access token to your app - Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/idp-pass-through-user-flow?pivots=b2c-user-flow)
+[Set up sign-up and sign-in with a Facebook account](https://learn.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-facebook?pivots=b2c-user-flow)
 
-[Announcing the general availability of two key features in Azure AD B2C](https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/announcing-the-general-availability-of-two-key-features-in-azure/ba-p/566362)
+[Pass an identity provider access token to your app](https://learn.microsoft.com/en-us/azure/active-directory-b2c/idp-pass-through-user-flow?pivots=b2c-user-flow)
+
