@@ -24,7 +24,7 @@ Now it is time to deploy the custom API as an Azure function and demonstrate the
 
 After deploying the function app you should configure within your sign in flow, the API connector “Before sending the token”.
 
-NOTE: The .NET function app project is located in this GitHub repository. You can clone the repository and run the following Azure CLI commands (you should also congiure some parameters) to deploy the function App in Azure.
+NOTE: The .NET function app project is located in this GitHub repository (Student->Resources->Challenge_D2_06). You can clone the repository and run the following Azure CLI commands (you should also configure some parameters) to deploy the function App in Azure.
 
 ```powershell
 # Deployment Parameters 
@@ -82,7 +82,7 @@ echo "Username: $ApiUserName"
 echo "Password: $ApiPassword"
 ```
 
-You can find the code in this [GitHub repository](./Resources/Challenge_D2_06/DeployClaimsEnrichAPIB2C.azcli)
+You can find the script [here](./Resources/Challenge_D2_06/DeployClaimsEnrichAPIB2C.azcli)
 
 ## Tips
 
