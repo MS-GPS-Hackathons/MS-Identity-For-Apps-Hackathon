@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this challenge students will deploy the sample ASP.Net Core web application used in previous challenge to Azure.
+In this challenge students will deploy the sample ASP.Net Core web application used in the previous challenge to Azure.
 
 Encourage users to use the script provided to deploy the application to save time,
 
@@ -18,6 +18,8 @@ $HomeTenantId = "[Enter your Tenant Id]"
 $AzureAdClientId = "[Enter your Client ID]"
 $AzureAdClientSecret = "[Enter your Client Secret]"
 ```
+
+Please note that the web application is build on .Net Core 3.1
 
 The script uses the Azure CLI and executes the following steps:
 
@@ -38,6 +40,8 @@ The script uses the Azure CLI and executes the following steps:
 - Publish the application to a local folder
 - Compress the publish folder to a zip file
 - Deploy the application to the web app (uses the published zip file)
+
+After the deployment, students should set the Redirect URI in the App Registration. It may take up to 10m mins for the change to take effect.
 
 [Deploy files to App Service](https://learn.microsoft.com/en-us/azure/app-service/deploy-zip?tabs=cli#deploy-a-zip-package)
 
