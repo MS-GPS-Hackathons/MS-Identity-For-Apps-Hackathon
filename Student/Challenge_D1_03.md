@@ -13,7 +13,7 @@ In the previous challenge you were able to integrate Azure AD as an identity sol
 ```powershell
 # Deployment Parameters
 $location = "eastus"
-$resourceGroupName = "IdentiyHackathon"
+$resourceGroupName = "IdentityHackathon"
 
 $subscription = "[Enter your Subscription Id]"
 $AzureAdDomain = "[Enter your Tenant Domain i.e xxxx.onmicrosoft.com]"
