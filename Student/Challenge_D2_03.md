@@ -65,7 +65,7 @@ Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip 
 az webapp deployment source config-zip --resource-group $resourceGroupName --name $name --src "./$PublishFolder.zip"
 ```
 
-You can find the code in this [GitHub repository](./Resources/Challenge_D2_03/DeployAppScriptB2C.azcli)
+You can find the script [here](./Resources/Challenge_D2_03/DeployAppScriptB2C.azcli)
 
 ## Success Criteria
 

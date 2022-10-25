@@ -61,7 +61,7 @@ Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip 
 az webapp deployment source config-zip --resource-group $resourceGroupName --name $name --src "./$PublishFolder.zip"
 ```
 
-You can find the code in this [GitHub repository](./Resources/Challenge_D1_03/DeployAppScriptB2B.azcli)
+You can find the script [here](./Resources/Challenge_D1_03/DeployAppScriptB2B.azcli)
 
 After completing the application deployment, you need to get familiar with oAuth security tokens.
 You should go through the learning resources and explain to your coach the following:
