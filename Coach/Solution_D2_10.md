@@ -26,6 +26,21 @@ These are the components that enable Conditional Access in Azure AD B2C:
 
 ## Answers for Challenge
 
-### Demonstrate how to you've implemented a Conditional Access policy that prompts for an MFA challenge for high or medium risk users.
+### 1. Demonstrate how to you've implemented a Conditional Access policy that prompts for an MFA challenge for high or medium risk users.
 
+Following the guide provided in the Learning Resources links, attendees should follow the steps mentioned in the demo to add a Conditional Access policy:
 
+- Disable security defaults in the Azure AD B2C tenant
+- Configure Conditional Access through the Azure portal or Microsoft Graph APIs to enable a sign-in risk-based Conditional Access policy requiring MFA when the sign-in risk is medium or high. Use "Template 1: Sign-in risk-based Conditional Access"
+
+### Demonstrate how you modify your Conditional Access policy to require a password change alongside an MFA challenge when a user risk is medium or high.
+
+In the same guide, the attendees should configure Conditional Access by using "Template 2: User risk-based Conditional Access" instead of "Template 1: Sign-in risk-based Conditional Access"
+
+ #### References for this challenge
+
+[Add Conditional Access to user flows in Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/conditional-access-user-flow?pivots=b2c-user-flow)
+
+[Identity Protection and Conditional Access in Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/conditional-access-identity-protection-overview)
+
+[What is Conditional Access in Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
