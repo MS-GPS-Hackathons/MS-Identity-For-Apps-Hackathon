@@ -11,6 +11,19 @@ In this challenge attendees should monitor the B2C activity by proceeding with t
 - visualize it with queries and workbooks
 - create alerts in Azure Monitor
 
+Azure Monitor logs is a solution that consolidates monitoring data from different sources and provides a query language and analytics engine that gives you insights into the operation of your applications and resources. By sending Azure AD activity logs to Azure Monitor logs, you can quickly retrieve, monitor and alert on collected data.
+
+By sending resource logs to a Log Analytics workspace the attendees will enable the features of Azure Monitor Logs, where you can:
+
+- Correlate resource log data with other monitoring data collected by Azure Monitor.
+- Consolidate log entries from multiple Azure resources, subscriptions, and tenants into one location for analysis together.
+- Use log queries to perform complex analysis and gain deep insights on log data.
+- Use log alerts with complex alerting logic.
+- Create a diagnostic setting to send resource logs to a Log Analytics workspace. This data is stored in tables as described in Structure of Azure Monitor Logs. The tables used by resource logs depend on what type of collection the resource is using:
+
+- Azure diagnostics: All data is written to the AzureDiagnostics table.
+- Resource-specific: Data is written to individual tables for each category of the resource.
+
 They can follow the procedure in the Microsoft Learn guide document provided. The guide includes the following steps:
 
 ### 1. Integration between Azure AD B2C and Log Analytics, which is where we'll send the logs
@@ -40,3 +53,12 @@ When certain events occur or are absent, attendees must showcase how to create a
 
 
  #### References for this challenge
+
+ 
+[Monitor Azure AD B2C with Azure Monitor - Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/azure-monitor) 
+
+[Azure Active Directory activity logs in Azure Monitor](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor)
+
+[Sign-in logs in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-sign-ins)
+
+[Access and review audit logs - Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/view-audit-logs)
