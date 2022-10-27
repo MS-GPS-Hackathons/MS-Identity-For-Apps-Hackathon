@@ -33,7 +33,7 @@ Following the guide provided in the Learning Resources links, attendees should f
 - Disable security defaults in the Azure AD B2C tenant
 - Configure Conditional Access through the Azure portal or Microsoft Graph APIs to enable a sign-in risk-based Conditional Access policy requiring MFA when the sign-in risk is medium or high. Use "Template 1: Sign-in risk-based Conditional Access"
 
-### Demonstrate how you modify your Conditional Access policy to require a password change alongside an MFA challenge when a user risk is medium or high.
+### 2. Demonstrate how you modify your Conditional Access policy to require a password change alongside an MFA challenge when a user risk is medium or high.
 
 In the same guide, the attendees should configure Conditional Access by using "Template 2: User risk-based Conditional Access" instead of "Template 1: Sign-in risk-based Conditional Access"
 
