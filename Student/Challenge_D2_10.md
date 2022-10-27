@@ -24,3 +24,5 @@ The expectations of the product team’s request are:
 [Identity Protection and Conditional Access in Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/conditional-access-identity-protection-overview)
 
 [What is Conditional Access in Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+
+[Add Conditional Access to user flows in Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/conditional-access-user-flow?pivots=b2c-user-flow)
