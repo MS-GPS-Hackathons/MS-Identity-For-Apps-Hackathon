@@ -36,6 +36,12 @@ The learning objectives for this hack will cover the following topics:
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)
 - [Git Client](https://git-scm.com/download)
 
+## Target audience
+
+ - Software Engineers
+ - DevOps Engineers
+ - Solution Architects, Software Architects
+
 ## Day 1 Challenges
 
 ---
