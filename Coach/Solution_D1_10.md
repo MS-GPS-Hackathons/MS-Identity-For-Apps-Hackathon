@@ -24,7 +24,7 @@ The Microsoft identity platform supports two types of permissions: *delegated p
 
 - **Delegated permissions** are used by apps that have a signed-in user present. For these apps, either the user or an administrator consents to the permissions that the app requests. The app is delegated with the permission to act as a signed-in user when it makes calls to the target resource.
   
-  Some delegated permissions can be consented to by nonadministrators. But some high-privileged permissions require [administrator consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#admin-restricted-permissions). To learn which administrator roles can consent to delegated permissions, see [Administrator role permissions in Azure Active Directory (Azure AD)](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference).
+  Some delegated permissions can be consented to by non administrators. But some high-privileged permissions require [administrator consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#admin-restricted-permissions). To learn which administrator roles can consent to delegated permissions, see [Administrator role permissions in Azure Active Directory (Azure AD)](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference).
 
 - **Application permissions** are used by apps that run without a signed-in user present, for example, apps that run as background services or daemons. Only [an administrator can consent to](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) application permissions.
 

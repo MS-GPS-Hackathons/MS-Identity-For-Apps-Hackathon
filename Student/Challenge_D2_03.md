@@ -61,7 +61,7 @@ dotnet publish $projectPath --configuration Release -o .\$PublishFolder
 
 # Compress and add in zip file the published version
 Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
-# Deplpoy the Zip file to Web App Service.
+# Deploy the Zip file to Web App Service.
 az webapp deployment source config-zip --resource-group $resourceGroupName --name $name --src "./$PublishFolder.zip"
 ```
 

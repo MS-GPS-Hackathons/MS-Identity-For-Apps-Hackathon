@@ -13,7 +13,7 @@ As an architect, you have done your research and discovered that you can achieve
 
 You have decided to start a Proof of Concept to integrate Azure AD with your internal applications by allowing your corporate users to login in to your application. You need to prepare and explain to the product team what service you will use to meet the requirements (Azure AD B2B or Azure AD B2C).
 
-As a first step you have decided to login to the Azure Portal and configure your tenant by creating two users HomeUserA and HomeUserB and assign them the “Azure AD Premium P2” licence.
+As a first step you have decided to login to the Azure Portal and configure your tenant by creating two users HomeUserA and HomeUserB and assign them the “Azure AD Premium P2” license.
 
 Then you have to set Owner rights on subscription level for the HomeAdmin account.
 
@@ -21,7 +21,7 @@ Then you have to set Owner rights on subscription level for the HomeAdmin accoun
 
 - Demonstrate that HomeAdmin account has Owner rights (Azure Role) on subscription level.
 - Demonstrate that you created  HomeUserA and HomeUserB in “HomeTenant”
-- Demonstrate that you assigned the “Azure AD Premium P2” licence to all users created in your tenant.
+- Demonstrate that you assigned the “Azure AD Premium P2” license to all users created in your tenant.
 - Explain the differences between “Azure roles” and “Azure AD roles”.
 - Explain what is role-based access control (Azure RBAC), security principal, role definition, role assignment and scope.
 - Explain the differences between Azure AD B2B Collaboration and Azure AD B2C (focus on “primary scenarios” and “intended for in [this document](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)” ).

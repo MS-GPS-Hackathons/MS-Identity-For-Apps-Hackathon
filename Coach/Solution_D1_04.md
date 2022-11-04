@@ -22,7 +22,7 @@ After you add a guest user to the directory, you can either send the guest user 
 
 [Invite guest users](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/add-users-administrator)
 
-Studenets should ensure that only users assigned to specific admin roles can invite guest users. 
+Students should ensure that only users assigned to specific admin roles can invite guest users. 
 
 By default, all users and admins can invite guests. But your organization's external collaboration policies might be configured to prevent certain types of users or admins from inviting guests.
 

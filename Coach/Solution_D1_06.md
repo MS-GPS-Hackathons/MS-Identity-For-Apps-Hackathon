@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this challenge studentsshould enable Multifactor authentication through Conditional Access policies.
+In this challenge students should enable Multifactor authentication through Conditional Access policies.
 
 Security defaults must be disabled to enable Conditional Access policy.
 

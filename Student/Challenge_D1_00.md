@@ -25,9 +25,9 @@ Setup and configure the following.
   
   - In the new tenant, create an admin user account, name it HomeAdmin and assign "Global Administrator" rights.
   
-  - Set the Usage Location property for the HomeAdmin account (usage location is required for assigning "Azure AD Premium P2" licence)
+  - Set the Usage Location property for the HomeAdmin account (usage location is required for assigning "Azure AD Premium P2" license)
     
-    - Assign "Azure AD Premium P2" trial licence to the HomeAdmin account
+    - Assign "Azure AD Premium P2" trial license to the HomeAdmin account
     
     - Create a Microsoft [Azure Pass](https://www.microsoftazurepass.com/Home/HowTo?Length=5) Subscription
       
@@ -42,8 +42,8 @@ Setup and configure the following.
   
   - Log into the [Azure Portal](https://portal.azure.com/) and confirm that you have an active subscription.
   - Create an admin user account, name it HomeAdmin and assign "Global Administrator" rights.
-  - Set the Usage Location property for the HomeAdmin account. (usage location is required for assigning "Azure AD Premium P2" licence)
-  - Assign "Azure AD Premium P2" trial licence to the HomeAdmin account
+  - Set the Usage Location property for the HomeAdmin account. (usage location is required for assigning "Azure AD Premium P2" license)
+  - Assign "Azure AD Premium P2" trial license to the HomeAdmin account
 
 ### Other Prerequisites
 
@@ -58,11 +58,11 @@ Setup and configure the following.
 - Verify that you are able to log in to the Azure Portal with HomeAdmin account.
 - Demonstrate that HomeAdmin account has Global Administrator rights (Azure AD role).
 - Demonstrate that you Azure subscription used is associated with your "HomeTenant".
-- Demonstrate that you assigned the "Azure AD Premium P2" licence to the HomeAdmin account.
+- Demonstrate that you assigned the "Azure AD Premium P2" license to the HomeAdmin account.
 
 ## Tips
 
-You can use "Azure AD Premium P2" or "Enterprise Mobility + Security E5" free trial to enable Azure AD Premium P2 licence.
+You can use "Azure AD Premium P2" or "Enterprise Mobility + Security E5" free trial to enable Azure AD Premium P2 license.
 
 ## Learning Resources
 

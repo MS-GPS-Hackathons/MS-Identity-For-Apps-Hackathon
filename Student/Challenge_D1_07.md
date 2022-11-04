@@ -21,14 +21,14 @@ The following diagram shows the Single Tenant compared to Multitenant apps in te
 
 ![Multitenant App Diagram](../Resources/Images/B2BMultitenantDiagram.png)
 
-The application object (App Registration) is the *global* representation of your application for use across all tenants, and the service principal (Enterpise Application) is the *local* representation for use in a specific tenant. The application object (App Registration) serves as the template from which common and default properties are *derived* for use in creating corresponding service principal objects (Enterpise Applications).
+The application object (App Registration) is the *global* representation of your application for use across all tenants, and the service principal (Enterprise Application) is the *local* representation for use in a specific tenant. The application object (App Registration) serves as the template from which common and default properties are *derived* for use in creating corresponding service principal objects (Enterprise Applications).
 
 An application object (App Registration) has:
 
 - A one-to-one relationship with the software application, and
-- A one-to-many relationship with its corresponding service principal object(s) (Enterpise Application)
+- A one-to-many relationship with its corresponding service principal object(s) (Enterprise Application)
 
-A service principal (Enterpise Application) must be created in each tenant where the application is used, enabling it to establish an identity for sign-in and/or access to resources being secured by the tenant. A single-tenant application has only one service principal (in its home tenant), created and consented for use during application registration. A multi-tenant application also has a service principal (Enterpise Application) created in each tenant where a user from that tenant has consented to its use.
+A service principal (Enterprise Application) must be created in each tenant where the application is used, enabling it to establish an identity for sign-in and/or access to resources being secured by the tenant. A single-tenant application has only one service principal (in its home tenant), created and consented for use during application registration. A multi-tenant application also has a service principal (Enterprise Application) created in each tenant where a user from that tenant has consented to its use.
 ## Success Criteria
 
 - Verify that you deleted the invited external users ExternalUserA and ExternalUserB from your home tenant.

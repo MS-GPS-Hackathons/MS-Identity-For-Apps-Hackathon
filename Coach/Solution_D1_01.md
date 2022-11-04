@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this challenge the students should create two accounts "HomeUserA" and "HomeUserB" in “HomeTenant” and assign “Azure AD Premium P2” licence to the users.
+In this challenge the students should create two accounts "HomeUserA" and "HomeUserB" in “HomeTenant” and assign “Azure AD Premium P2” license to the users.
 
 [Add or delete users](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
 

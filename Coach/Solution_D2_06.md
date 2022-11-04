@@ -62,7 +62,7 @@ The script uses the Azure CLI and executes the following steps:
 - Create storage account for the function app
 - Create the Function App
 - Configure the application setting on the Function app
-  - WWEBSITE_RUN_FROM_PACKAGE="1"  
+  - WEBSITE_RUN_FROM_PACKAGE="1"  
   - ASPNETCORE_ENVIRONMENT="Development"
   - ApiUserName=$ApiUserName
   - ApiPassword=$ApiPassword

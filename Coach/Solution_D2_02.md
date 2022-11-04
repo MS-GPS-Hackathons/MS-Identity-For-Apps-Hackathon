@@ -27,7 +27,7 @@ Students should also configure the following properties (in this order) of the s
 - Job Title (optional)
 - City (optional)
 
-These properties should be shown in the corerct order.
+These properties should be shown in the correct order.
 
 [Customize the user interface - Order input fields](https://learn.microsoft.com/en-us/azure/active-directory-b2c/customize-ui?pivots=b2c-user-flow#re-order-input-fields-in-the-sign-up-form)
 
