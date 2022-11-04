@@ -23,6 +23,11 @@ As a first step you should login to the Azure Portal and create a new tenant, wh
 - Demonstrate that you can login to your web application you recently deployed with ExternalUserA account (user exists in “ExternalTenant”) invited in your home directory.
 - Briefly explain what are “B2B Collaboration”, “B2B direct connect” and “Azure AD B2C” capabilities
 
+## Tips
+
+When you invite guest users, an email invitation is sent. The invitation includes a link to redeem access. The invitation email is just one of the ways guests can redeem access. As an alternative, you can accept the invitation via a direct link.
+In this challenge you don't need the email invitation to redeem access, because the user created in previous challenge does not have mail box. When user navigates to the application, the user is redirected to the login page with the direct link to consent and redeem access.
+
 ## Learning Resources
 
 [Quickstart - Access & create new tenant - Azure AD - Microsoft Entra | Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
@@ -34,3 +39,5 @@ As a first step you should login to the Azure Portal and create a new tenant, wh
 [Invite External Users](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/add-users-administrator)
 
 [B2B Collaboration, B2B direct connect and Azure AD B2C capabilities](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview)
+
+[Azure AD B2B collaboration invitation redemption](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/redemption-experience)
