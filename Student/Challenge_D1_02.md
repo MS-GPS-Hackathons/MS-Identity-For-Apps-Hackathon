@@ -36,7 +36,9 @@ You should configure the Application Registration in your “HomeTenant”
 
 You can configure the Redirect URIs after deploying your application.
 
-You can limit the logins by using incognito mode and private browsing by logging in with different user accounts
+You can limit the logins by using incognito mode and private browsing by logging in with different user accounts.
+
+When you login with the user created, you will be prompt to provide more information to keep your account secure (required for MFA). Select the option Skip for now (14 days until this is required)
 ## Learning Resources
 
 [Quickstart: Sign in users in web apps using the auth code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/web-app-quickstart?pivots=devlang-aspnet-core)

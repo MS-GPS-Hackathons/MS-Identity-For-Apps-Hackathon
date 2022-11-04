@@ -42,6 +42,8 @@ The above attributes should be returned when the user successfully logs in, alon
 
 You can run your application locally. In the next challenge you will deploy the application to Azure.
 
+When you create users, please set a passwords that you feel comfortable sharing with your team.
+
 ## Learning Resources
 
 [How-to Configure authentication in a sample web application by using Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/configure-authentication-sample-web-app?tabs=visual-studio)

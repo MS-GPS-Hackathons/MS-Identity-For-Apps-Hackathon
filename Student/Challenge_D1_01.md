@@ -30,6 +30,8 @@ Then you have to set Owner rights on subscription level for the HomeAdmin accoun
 
 Azure AD Premium P2 will be used later when enabling Conditional Access Policies and Multifactor authentication.
 
+When you create users, please set a passwords that you feel comfortable sharing with your team.
+
 ## Learning Resources
 
 [Add or delete users - Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
