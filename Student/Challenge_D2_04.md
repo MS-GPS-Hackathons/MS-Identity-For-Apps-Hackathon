@@ -10,15 +10,21 @@ Product team decided they want to make life easier for users and let them log in
 
 In the previous challenges you set user flows to enable sign-up and sign-in with email and deployed your application to Azure. In this step, your task is to add external identity provider (Google or Facebook) to you AAD B2C tenant and configure it accordingly to be used in the user flow for sign-in and sign-up.
 
+Azure AD B2C supports passing the access token of OAuth 2.0 identity providers, which include Facebook and Google.
+You should enable a claim in your user flow to pass the identity provider's token.
+
 ## Success Criteria
 
 To complete this challenge successfully, you should be able to:
 
 - Demonstrate that you correctly configured sign-in/sign-up user flow and added external identity provider to it.
 - Demonstrate that you can successfully log in with external identity provider
-- Show that you can pass the access token returned by the OAuth identity provider as a claim – how can it be used?
+- Show that you can pass the access token returned by the OAuth identity provider as a claim.
 - Verify that the created user exists in the Users of “B2C Tenant”.
 
+## Tips
+
+You’ll be able to use the identity provider's access token (added as a claim in your user flow) when you call the identity provider’s API, such as the Facebook Graph API.
 ## Learning Resources
 
 [Add an identity provider](https://learn.microsoft.com/en-us/azure/active-directory-b2c/add-identity-provider)
