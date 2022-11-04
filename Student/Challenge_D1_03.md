@@ -85,6 +85,7 @@ You should go through the learning resources and explain to your coach the follo
 Ensure that you will run the script with “HomeAdmin” account, which has “Owner” role assignment on subscription level.
 
 After the deployment you should configure the Redirect URI i.e https://[WebAppHostName].azurewebsites.net/signin-oidc
+It may take up to 10m mins for the change to take effect. 
 
 ## Learning Resources
 

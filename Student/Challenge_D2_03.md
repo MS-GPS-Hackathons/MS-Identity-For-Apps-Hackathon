@@ -76,6 +76,7 @@ You can find the script [here](./Resources/Challenge_D2_03/DeployAppScriptB2C.az
 ## Tips
 
 After the deployment you should configure the Redirect URI i.e https://[WebAppHostName].azurewebsites.net/signin-oidc
+It may take up to 10m mins for the change to take effect.
 
 ## Learning Resources
 

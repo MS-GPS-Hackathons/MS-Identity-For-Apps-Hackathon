@@ -34,7 +34,7 @@ Hence you have to go through the learning resources and explain to your coach th
 
 You should configure the Application Registration in your “HomeTenant”
 
-You can configure the Redirect URIs after deploying your application
+You can configure the Redirect URIs after deploying your application.
 
 You can limit the logins by using incognito mode and private browsing by logging in with different user accounts
 ## Learning Resources
