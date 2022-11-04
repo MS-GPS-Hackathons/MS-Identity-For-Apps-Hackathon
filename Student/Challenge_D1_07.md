@@ -44,6 +44,8 @@ A service principal (Enterprise Application) must be created in each tenant wher
 
 You don’t need to make code changes and redeploy the application.
 
+You can limit the logins by using incognito mode and private browsing by logging in with different user accounts
+
 ## Learning Resources
 
 [Single and multi-tenant apps in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-and-multi-tenant-apps)

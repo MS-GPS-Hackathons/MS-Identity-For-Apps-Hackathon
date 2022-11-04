@@ -73,7 +73,7 @@ You should go through the learning resources and explain to your coach the follo
 ## Success Criteria
 
 - Demonstrate that you have successfully deployed the web application on Azure.
-- Demonstrate that you can login with UserA account in your web application you recently deployed in Azure.
+- Demonstrate that you can login with HomeUserA account in your web application you recently deployed in Azure.
 - Verify that the application configuration settings of the web application you recently deployed in Azure is properly set.
 - Explain what are the Redirect URIs and why they are used
 - Explain what is an access token, ID token and refresh token.

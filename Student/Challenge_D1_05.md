@@ -20,6 +20,10 @@ You should allow access to the application only for “HomeUserA” and “Exter
 - Demonstrate that you can login with ExternalUserA account in your web application.
 - Demonstrate that you can NOT login with HomeUserB account in your web application.
 
+## Tips
+
+You can limit the logins by using incognito mode and private browsing by logging in with different user accounts
+
 ## Learning Resources
 
 [Assignment Required property](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-properties?source=recommendations#assignment-required)
