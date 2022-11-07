@@ -21,7 +21,7 @@ Setup and configure the following.
 
 - In case an Azure Pass was provided in this Hack please follow the steps below:
   
-  - Create an Azure Active Directory tenant by following the [QuickStart](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/ctive-directory-access-create-new-tenant) steps. This will be your "HomeTenant" for this Hackathon.
+  - Create an Azure Active Directory tenant by following the [QuickStart](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) steps. This will be your "HomeTenant" for this Hackathon.
   
   - In the new tenant, create an admin user account, name it HomeAdmin and assign "Global Administrator" rights.
   
