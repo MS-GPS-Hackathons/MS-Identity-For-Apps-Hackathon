@@ -32,6 +32,8 @@ Azure AD Premium P2 will be used later when enabling Conditional Access Policies
 
 When you create users, please set a passwords that you feel comfortable sharing with your team.
 
+Instead of Azure portal, you can use a new Microsoft Entra admin center. Microsoft Entra is our new product family that encompasses all of Microsoft’s identity and access capabilities. The Entra family includes Microsoft Azure Active Directory (Azure AD), as well as two new product categories: Cloud Infrastructure Entitlement Management (CIEM) and decentralized identity. The products in the Entra family will help provide secure access to everything for everyone, by providing identity and access management, cloud infrastructure entitlement management, and identity verification.
+
 ## Learning Resources
 
 [Add or delete users - Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
@@ -45,3 +47,5 @@ When you create users, please set a passwords that you feel comfortable sharing 
 [What is Azure role-based access control (Azure RBAC)?](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
 
 [Azure AD B2B and B2C feature sets](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#comparing-external-identities-feature-sets)
+
+[Microsoft Entra](https://www.microsoft.com/en-us/security/business/microsoft-entra)
