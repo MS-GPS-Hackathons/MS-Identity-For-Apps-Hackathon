@@ -7,6 +7,7 @@
 In this challenge students should enable Multifactor authentication through Conditional Access policies.
 
 Security defaults must be disabled to enable Conditional Access policy.
+If you've been using security defaults, you'll need to turn them off before using Conditional Access. You can use either security defaults or Conditional Access policies, but you can't use both at the same time.
 
 When configuring the MFA security verification for user HomeUserA, advice students to select the “Mobile App” option.
 
