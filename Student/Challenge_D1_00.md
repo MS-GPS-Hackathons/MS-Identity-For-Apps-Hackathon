@@ -64,7 +64,7 @@ Setup and configure the following.
 
 You can use "Azure AD Premium P2" or "Enterprise Mobility + Security E5" free trial to enable Azure AD Premium P2 license.
 
-When you create users, please set a passwords that you feel comfortable sharing with your team.
+When you create users, please set passwords that you feel comfortable sharing with your team.
 ## Learning Resources
 
 [Quickstart - Access & create new tenant - Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)

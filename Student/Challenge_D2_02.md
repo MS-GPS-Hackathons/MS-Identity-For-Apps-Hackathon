@@ -42,7 +42,7 @@ The above attributes should be returned when the user successfully logs in, alon
 
 You can run your application locally. In the next challenge you will deploy the application to Azure.
 
-When you create users, please set a passwords that you feel comfortable sharing with your team.
+When you create users, please set passwords that you feel comfortable sharing with your team.
 
 ## Learning Resources
 

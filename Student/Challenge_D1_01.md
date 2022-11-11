@@ -30,7 +30,7 @@ Then you have to set Owner rights on subscription level for the HomeAdmin accoun
 
 Azure AD Premium P2 will be used later when enabling Conditional Access Policies and Multifactor authentication.
 
-When you create users, please set a passwords that you feel comfortable sharing with your team.
+When you create users, please set passwords that you feel comfortable sharing with your team.
 
 Instead of Azure portal, you can use a new Microsoft Entra admin center. Microsoft Entra is our new product family that encompasses all of Microsoft’s identity and access capabilities. The Entra family includes Microsoft Azure Active Directory (Azure AD), as well as two new product categories: Cloud Infrastructure Entitlement Management (CIEM) and decentralized identity. The products in the Entra family will help provide secure access to everything for everyone, by providing identity and access management, cloud infrastructure entitlement management, and identity verification.
 
