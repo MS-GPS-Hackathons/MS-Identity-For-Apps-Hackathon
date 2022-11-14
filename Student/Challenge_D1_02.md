@@ -45,10 +45,10 @@ When you login with the user created, you will be prompt to provide more informa
 
 [Single and multi-tenant apps](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-[Scopes and Permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#scopes-and-permissions)
+[Scopes and Permissions](https://learn.microsoft.com/en-us/azure/active-directory/develop/scopes-oidc)
 
 [Permission types](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#types-of-permissions)
 
-[Consent Types - User Consent and Admin Consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types)
+[Consent Types - User Consent and Admin Consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#consent)
 
 [Application Type Options (Optional)](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-authentication-flows)
