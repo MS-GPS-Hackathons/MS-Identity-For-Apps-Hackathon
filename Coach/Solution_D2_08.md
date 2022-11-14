@@ -98,5 +98,6 @@ The easiest way to test a policy is to run it directly from the AAD B2C portal. 
  
  [custom policy samples](https://github.com/Azure-Samples/active-directory-b2c-custom-policy-starterpack)
  
+ [bigger list of policy samples](https://github.com/azure-ad-b2c/samples)
  
  
