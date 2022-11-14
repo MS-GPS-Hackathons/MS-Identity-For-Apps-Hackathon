@@ -71,7 +71,7 @@ An app most commonly requests these permissions by specifying the scopes in requ
 
 In requests to the authorization, token or consent endpoints for the Microsoft Identity platform, if the resource identifier is omitted in the scope parameter, the resource is assumed to be Microsoft Graph. For example, `scope=User.Read` is equivalent to `https://graph.microsoft.com/User.Read`.
 
-[Scopes and permissions](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#scopes-and-permissions)
+[Scopes and permissions](https://learn.microsoft.com/en-us/azure/active-directory/develop/scopes-oidc)
 
 ### 3. Explain what are the Permission types
 
@@ -79,7 +79,7 @@ The Microsoft identity platform supports two types of permissions: *delegated p
 
 - **Delegated permissions** are used by apps that have a signed-in user present. For these apps, either the user or an administrator consents to the permissions that the app requests. The app is delegated with the permission to act as a signed-in user when it makes calls to the target resource.
   
-  Some delegated permissions can be consented to by non administrators. But some high-privileged permissions require [administrator consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#admin-restricted-permissions). To learn which administrator roles can consent to delegated permissions, see [Administrator role permissions in Azure Active Directory (Azure AD)](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference).
+  Some delegated permissions can be consented to by non administrators. But some high-privileged permissions require [administrator consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#administrator-consent). To learn which administrator roles can consent to delegated permissions, see [Administrator role permissions in Azure Active Directory (Azure AD)](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference).
 
 - **Application permissions** are used by apps that run without a signed-in user present, for example, apps that run as background services or daemons. Only [an administrator can consent to](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) application permissions.
 
@@ -93,7 +93,7 @@ The Microsoft identity platform supports two types of permissions: *delegated p
 
 - For application permissions, the *effective permissions* of your app are the full level of privileges implied by the permission. For example, an app that has the *User.ReadWrite.All* application permission can update the profile of every user in the organization.
   
-  [Permission types](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#permission-types)
+  [Permission types](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#types-of-permissions)
 
 ### 4. Explain what is User Consent and Admin Consent
 
@@ -128,7 +128,7 @@ At this time, the `offline_access` ("Maintain access to data you have given it
 
 When the user approves the permission request, consent is recorded. The user doesn't have to consent again when they later sign in to the application.
 
-[Consent Types](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types)
+[Consent Types](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#consent)
 
 ### 5. (Optional) Explain the Application types options (SPA, web app, desktop app, daemon app) by specifying what authentication flow you will use for every option
 
