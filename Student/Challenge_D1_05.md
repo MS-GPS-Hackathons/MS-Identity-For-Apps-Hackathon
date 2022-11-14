@@ -22,7 +22,9 @@ You should allow access to the application only for “HomeUserA” and “Exter
 
 ## Tips
 
-You can limit the logins by using incognito mode and private browsing by logging in with different user accounts
+You can limit the logins by using incognito mode and private browsing by logging in with different user accounts.
+
+In the Enterprise Application assignments, it is recommended to add group assignments instead of direct user assignments.
 
 ## Learning Resources
 
