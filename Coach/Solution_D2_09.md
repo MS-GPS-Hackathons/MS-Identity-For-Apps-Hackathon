@@ -57,3 +57,5 @@ The only thing that needs to be modified is a tenant name at the beggining of ea
 
 #### References for this challenge
 
+[troubleshooting guide](https://learn.microsoft.com/en-us/azure/active-directory-b2c/troubleshoot?pivots=b2c-custom-policy)
+
