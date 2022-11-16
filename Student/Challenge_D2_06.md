@@ -31,9 +31,9 @@ NOTE: The .NET function app project is located in this GitHub repository (Studen
 $subscription = "[Enter your Subscription Id]"
 $ApiUserName = "[Enter The Api Connector Username]"
 $ApiPassword = "[Enter The Api Connector Password]"
-$extensions-app-id = "[Enter The Extension App Id. This is the client id of the app registration created during Azure AD B2C tenant creation]"
+$extensionsAppId = "[Enter The Extension App Id. This is the client id of the app registration created during Azure AD B2C tenant creation]"
 # Define the Visual Studio project directory
-$projectPath = "<Your repository path>\Student\Resources\Challenge_2_06\AzureAD.Identity.B2C.API.ClaimsEnrichment\AzureAD.Identity.B2C.API.ClaimsEnrichment.csproj"
+$projectDirectoryB2B = "<Your repository path>\AzureAD.Identity.B2C.API.ClaimsEnrichment\AzureAD.Identity.B2C.API.ClaimsEnrichment.csproj"
 
 # Other Parameters 
 $location = "eastus"
@@ -44,7 +44,7 @@ $storageName = "funstorage" + $random
 $PublishFolder = "publish-b2c-api-" + $random
 
 # Login to Azure 
-az login
+# az login
 
 # Set default account subscription
 az account set --subscription $subscription
@@ -64,11 +64,11 @@ az storage account create --name $storageName --location "$location" --resource-
 az functionapp create --name $functionName --storage-account $storageName --consumption-plan-location "$location" --resource-group $resourceGroupName --functions-version "4"
 
 # Set Web App Configuration App Settings
-az functionapp config appsettings set --resource-group $resourceGroupName --name $functionName --settings WEBSITE_RUN_FROM_PACKAGE="1"  ASPNETCORE_ENVIRONMENT="Development" ApiUserName=$ApiUserName ApiPassword=$ApiPassword extensions-app-id=$extensions-app-id
+az functionapp config appsettings set --resource-group $resourceGroupName --name $functionName --settings WEBSITE_RUN_FROM_PACKAGE="1"  ASPNETCORE_ENVIRONMENT="Development" ApiUserName=$ApiUserName ApiPassword=$ApiPassword extensions-app-id=$extensionsAppId
 
 # Build and publish the project in local directory
-dotnet build $projectPath --configuration Release 
-dotnet publish $projectPath --configuration Release -o .\$PublishFolder
+dotnet build $projectDirectoryB2B --configuration Release 
+dotnet publish $projectDirectoryB2B --configuration Release -o .\$PublishFolder
 
 # Compress and add in zip file the published version
 Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
