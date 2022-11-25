@@ -4,7 +4,7 @@
 
 Welcome to the coach's guide for this Hackathon. Here you will find links to specific guidance for coaches for each of the challenges.
 
-You can find the Kick off presentation for [here](KickOffDeck.pptx)**
+You can find the Kick off presentation for [here](KickOffDeck.pptx)
 
 **NOTE**: If you are a Hackathon participant, this is the answer guide. Don't cheat yourself by looking at these during the hack! Go and learn something :)
 
