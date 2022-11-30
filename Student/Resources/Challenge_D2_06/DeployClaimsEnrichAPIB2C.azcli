@@ -3,8 +3,8 @@ $subscription = "[Enter your Subscription Id]"
 $ApiUserName = "[Enter The Api Connector Username]"
 $ApiPassword = "[Enter The Api Connector Password]"
 $extensionsAppId = "[Enter The Extension App Id. This is the client id of the app registration created during Azure AD B2C tenant creation]"
-# Define the Visual Studio project directory
-$projectDirectoryB2B = "<Your repository path>\AzureAD.Identity.B2C.API.ClaimsEnrichment\AzureAD.Identity.B2C.API.ClaimsEnrichment.csproj"
+# Define the Visual Studio project file to publish
+$projectFile = "[Enter the Visual Studio project file ending with .csproj]"
 
 # Other Parameters 
 $location = "eastus"
@@ -38,15 +38,15 @@ az functionapp create --name $functionName --storage-account $storageName --cons
 az functionapp config appsettings set --resource-group $resourceGroupName --name $functionName --settings WEBSITE_RUN_FROM_PACKAGE="1"  ASPNETCORE_ENVIRONMENT="Development" ApiUserName=$ApiUserName ApiPassword=$ApiPassword extensions-app-id=$extensionsAppId
 
 # Build and publish the project in local directory
-dotnet build $projectDirectoryB2B --configuration Release 
-dotnet publish $projectDirectoryB2B --configuration Release -o .\$PublishFolder
+dotnet build $projectFile --configuration Release 
+dotnet publish $projectFile --configuration Release -o .\$PublishFolder
 
 # Compress and add in zip file the published version
 Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
 # Deploy the Zip file to Azure Function.
 az functionapp deployment source config-zip --resource-group $resourceGroupName --name $functionName --src "./$PublishFolder.zip"
 
-$functionUrl = az functionapp function show --resource-group $resourceGroupName --name $functionName --function-name ClaimsEnrichment --query href
+$functionUrl = az functionapp function show --resource-group $resourceGroupName --name $functionName --function-name ClaimsEnrichment --query invokeUrlTemplate
 echo "Use the below function URL and username/password in your API Connector"
 echo "Function URL: $functionUrl"
 echo "Username: $ApiUserName"
