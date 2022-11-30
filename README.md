@@ -29,7 +29,7 @@ The learning objectives for this hack will cover the following topics:
   - An active Azure subscription with Global Administrator access to create or modify resources and permissions.
   - **OR**
   - Use the Azure Pass that will be provided during the Hackathon.
-- Visual Studio 2019/2022 or Visual Studio Code.
+- Visual Studio 2022 or Visual Studio Code.
 - Azure AD Premium P2 trial licence.
 - [.NET Core 3.1 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) and [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
