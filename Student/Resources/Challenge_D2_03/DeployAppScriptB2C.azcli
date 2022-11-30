@@ -15,8 +15,8 @@ $random = Get-Random
 # Web Application Name
 $name = "identityhackathon-b2c-" + $random
 $PublishFolder = "publish-b2c-" + $random
-# Define the Visual Studio project directory
-$projectDirectoryB2B = "C:\Azure-Samples\active-directory-aspnetcore-webapp-openidconnect-v2-master\active-directory-aspnetcore-webapp-openidconnect-v2-master\1-WebApp-OIDC\1-5-B2C\WebApp-OpenIDConnect-DotNet.csproj"
+# Define the Visual Studio project file to publish
+$projectFile = "[Enter the Visual Studio project file ending with .csproj]"
 
 # Login to Azure 
 az login
@@ -42,8 +42,8 @@ az webapp create --name $name --plan $name --resource-group $resourceGroupName -
 az webapp config appsettings set --resource-group $resourceGroupName --name $name --settings WEBSITE_RUN_FROM_PACKAGE="1" ASPNETCORE_ENVIRONMENT="Development" AzureAdB2C:Instance=$AzureAdB2C_Instance AzureAdB2C:ClientId=$AzureAdB2C_ClientId AzureAdB2C:Domain=$AzureAdB2C_Domain AzureAdB2C:SignedOutCallbackPath=$AzureAdB2C_SignedOutCallbackPath AzureAdB2C:SignUpSignInPolicyId=$AzureAdB2C_SignUpSignInPolicyId AzureAdB2C:ResetPasswordPolicyId=$AzureAdB2C_ResetPasswordPolicyId AzureAdB2C:EditProfilePolicyId=$AzureAdB2C_EditProfilePolicyId
 
 # Build and publish the project in local directory
-dotnet build $projectDirectoryB2B --configuration Release 
-dotnet publish $projectDirectoryB2B --configuration Release -o .\$PublishFolder
+dotnet build $projectFile --configuration Release 
+dotnet publish $projectFile --configuration Release -o .\$PublishFolder
 
 # Compress and add in zip file the published version
 Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
