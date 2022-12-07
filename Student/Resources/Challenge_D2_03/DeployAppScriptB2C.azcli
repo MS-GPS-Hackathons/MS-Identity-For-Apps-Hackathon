@@ -15,8 +15,8 @@ $random = Get-Random
 # Web Application Name
 $name = "identityhackathon-b2c-" + $random
 $PublishFolder = "publish-b2c-" + $random
-# Define the Visual Studio project file to publish
-$projectFile = "[Enter the Visual Studio project file ending with .csproj]"
+# Define the Visual Studio project file (full path) to publish
+$projectFile = "[Enter the full path of the Visual Studio project file ending with .csproj]"
 
 # Login to Azure 
 az login

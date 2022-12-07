@@ -3,8 +3,8 @@ $subscription = "[Enter your Subscription Id]"
 $ApiUserName = "[Enter The Api Connector Username]"
 $ApiPassword = "[Enter The Api Connector Password]"
 $extensionsAppId = "[Enter The Extension App Id. This is the client id of the app registration created during Azure AD B2C tenant creation]"
-# Define the Visual Studio project file to publish
-$projectFile = "[Enter the Visual Studio project file ending with .csproj]"
+# Define the Visual Studio project file (full path) to publish
+$projectFile = "[Enter the full path of the Visual Studio project file ending with .csproj]"
 
 # Other Parameters 
 $location = "eastus"
