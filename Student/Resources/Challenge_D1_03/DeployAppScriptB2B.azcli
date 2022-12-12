@@ -7,42 +7,76 @@ $AzureAdDomain = "[Enter your Tenant Domain i.e xxxx.onmicrosoft.com]"
 $HomeTenantId = "[Enter your Tenant Id]"
 $AzureAdClientId = "[Enter your Client ID]"
 $AzureAdClientSecret = "[Enter your Client Secret]"
+$random = "[Add a 6 digit random value, will be used to create a uinique value for the App Service]"
 
-$random = Get-Random
-# Web Application Name
-$name = "identityhackathon-b2b-" + $random
-$PublishFolder = "publish-b2b-" + $random
 # Define the Visual Studio project file (full path) to publish
 $projectFile = "[Enter the full path of the Visual Studio project file ending with .csproj]"
 
-# Login to Azure 
-az login
+# Web Application Name
+$name = "identityhackathon-b2b-" + $random
+$PublishFolder = "publish-b2b-" + $random
 
-# Set default account subscription
-az account set --subscription $subscription
+# Build the project
+dotnet build $projectFile --configuration Release
+$buildResult = $LASTEXITCODE
+if($buildResult -eq 0)
+    {
+        Write-Host "Build completed succesfully."
+    } else {
+        Write-Host "Build FAILED." -ForegroundColor Red;
+    }
 
-# Useful commands for login in Azure
-# az account show
-# az account list
-# az logout
+# Publish the project in local directory, if previous build completed succesfully
+if($buildResult -eq 0) {
+    dotnet publish $projectFile --configuration Release -o .\$PublishFolder
+    $publishResult = $LASTEXITCODE
+    # Write output result
+    if($publishResult -eq 0)
+    {
+        Write-Host "Publish completed succesfully."
+    } else {
+        Write-Host "Publish FAILED." -ForegroundColor Red;
+    }
+}
 
-# Create resource group
-az group create --location $location --resource-group $resourceGroupName
+# Compress the published version in zip file, if the previous publish command completed succesfully
+if(($buildResult -eq 0) -and ($publishResult -eq 0)) {
+    $error.Clear();
+    Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
+    $compressResult = $error.Count   
+    # Write output result
+    if($compressResult -eq 0)
+    {
+        Write-Host "Compress file completed succesfully."
+    } else {
+        Write-Host "Compress file FAILED." -ForegroundColor Red;
+    }
+}
 
-# Create App Service plan
-az appservice plan create --name $name --resource-group $resourceGroupName --sku P1V2 --location $location 
+if(($buildResult -eq 0) -and ($publishResult -eq 0)  -and ($compressResult -eq 0)) {
+    # Login to Azure 
+    az login
 
-# Create a Web App in App Service Plan created in previous step
-# You can use the “az webapp list-runtimes” to get the available runtimes (i.e "dotnet:6", "DOTNETCORE:3.1",  etc.) 
-az webapp create --name $name --plan $name --resource-group $resourceGroupName --runtime "DOTNETCORE:3.1" 
-# Set Web App Configuration App Settings
-az webapp config appsettings set --resource-group $resourceGroupName --name $name --settings WEBSITE_RUN_FROM_PACKAGE="1" AzureAd:Instance='https://login.microsoftonline.com/' AzureAd:TenantId=$HomeTenantId AzureAd:CallbackPath='/signin-oidc' AzureAd:ClientId=$AzureAdClientId AzureAd:Domain=$AzureAdDomain AzureAd:ClientSecret=$AzureAdClientSecret
+    # Set default account subscription
+    az account set --subscription $subscription
 
-# Build and publish the project in local directory
-dotnet build $projectFile --configuration Release 
-dotnet publish $projectFile --configuration Release -o .\$PublishFolder
+    # Useful commands for login in Azure
+    # az account show
+    # az account list
+    # az logout
 
-# Compress and add in zip file the published version
-Compress-Archive -Path .\$PublishFolder\* -DestinationPath ./$PublishFolder.zip -Force
-# Deplpoy the Zip file to Web App Service.
-az webapp deployment source config-zip --resource-group $resourceGroupName --name $name --src "./$PublishFolder.zip"
+    # Create resource group
+    az group create --location $location --resource-group $resourceGroupName
+
+    # Create App Service plan
+    az appservice plan create --name $name --resource-group $resourceGroupName --sku P1V2 --location $location 
+
+    # Create a Web App in App Service Plan created in previous step
+    # You can use the “az webapp list-runtimes” to get the available runtimes (i.e "dotnet:6", "DOTNETCORE:3.1",  etc.) 
+    az webapp create --name $name --plan $name --resource-group $resourceGroupName --runtime "DOTNETCORE:3.1" 
+    # Set Web App Configuration App Settings
+    az webapp config appsettings set --resource-group $resourceGroupName --name $name --settings WEBSITE_RUN_FROM_PACKAGE="1" AzureAd:Instance='https://login.microsoftonline.com/' AzureAd:TenantId=$HomeTenantId AzureAd:CallbackPath='/signin-oidc' AzureAd:ClientId=$AzureAdClientId AzureAd:Domain=$AzureAdDomain AzureAd:ClientSecret=$AzureAdClientSecret
+
+    # Deplpoy the Zip file to Web App Service.
+    az webapp deployment source config-zip --resource-group $resourceGroupName --name $name --src "./$PublishFolder.zip"
+}
