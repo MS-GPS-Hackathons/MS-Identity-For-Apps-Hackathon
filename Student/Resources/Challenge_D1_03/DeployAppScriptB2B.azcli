@@ -73,7 +73,7 @@ if(($buildResult -eq 0) -and ($publishResult -eq 0)  -and ($compressResult -eq 0
 
     # Create a Web App in App Service Plan created in previous step
     # You can use the “az webapp list-runtimes” to get the available runtimes (i.e "dotnet:6", "DOTNETCORE:3.1",  etc.) 
-    az webapp create --name $name --plan $name --resource-group $resourceGroupName --runtime "DOTNETCORE:3.1" 
+    az webapp create --name $name --plan $name --resource-group $resourceGroupName --runtime "dotnet:6" 
     # Set Web App Configuration App Settings
     az webapp config appsettings set --resource-group $resourceGroupName --name $name --settings WEBSITE_RUN_FROM_PACKAGE="1" AzureAd:Instance='https://login.microsoftonline.com/' AzureAd:TenantId=$HomeTenantId AzureAd:CallbackPath='/signin-oidc' AzureAd:ClientId=$AzureAdClientId AzureAd:Domain=$AzureAdDomain AzureAd:ClientSecret=$AzureAdClientSecret
 
