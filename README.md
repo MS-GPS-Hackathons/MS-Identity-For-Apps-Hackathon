@@ -58,7 +58,7 @@ The learning objectives for this hack will cover the following topics:
 
 - Integrate an ASP.NET Core web app sample with Azure AD B2B and get familiar with the identity concepts
 
-### Day 1 - Challenge 3: **[Deploy your Web Application to Azure](Student/Challenge_D1_03.md)**
+### Day 1 - Challenge 3: **[Deploy your Web Application in Azure](Student/Challenge_D1_03.md)**
 
 - Deploy the ASP.NET Core web app sample in Azure as an App Service Web App and get familiar with secutity tokens
 
@@ -106,7 +106,7 @@ Are you too comfortable and eager to do more? Try these additional challenges!
 
 - Integrate an ASP.NET Core web app sample with Azure AD B2C
 
-### Day 2 - Challenge 3: **[Deploy the web app to Azure](Student/Challenge_D2_03.md)**
+### Day 2 - Challenge 3: **[Deploy the web app in Azure](Student/Challenge_D2_03.md)**
 
 - Deploy the ASP.NET Core web app sample in Azure as an App Service Web App
 
