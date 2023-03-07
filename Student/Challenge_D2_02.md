@@ -40,9 +40,7 @@ The above attributes should be returned when the user successfully logs in, alon
 
 ## Tips
 
-The code sample uses the implicit grant flow, thus you have to enable access and ID tokens in the App Registration.
-
-You can run your application locally. In the next challenge you will deploy the application to Azure.
+You can run your application locally. In the next challenge you will deploy the application in Azure.
 
 When you create users, please set passwords that you feel comfortable sharing with your team.
 
